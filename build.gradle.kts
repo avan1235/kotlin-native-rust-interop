@@ -76,6 +76,7 @@ kotlin {
                 tasks.getByName(interopProcessingTaskName) {
                     dependsOn(buildRustLib)
                 }
+                packageName("librust_lib")
                 header(projectFile("rust_lib/target/rust_lib.h"))
             }
         }
