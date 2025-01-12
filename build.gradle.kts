@@ -88,7 +88,7 @@ kotlin {
     }
     sourceSets {
         getByName("nativeMain").dependencies {
-            implementation("org.jetbrains.kotlinx:kotlinx-io-core:0.3.0")
+            implementation("org.jetbrains.kotlinx:kotlinx-io-core:0.6.0")
         }
     }
 }
